@@ -1,0 +1,53 @@
+﻿<style>
+		.circle-image {
+			border-radius: 100%;
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+			border: 5px solid #fff;
+		}
+	
+
+  /* General Styles */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            background-color: #FFF0F0;
+            color: #333;
+        }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+.profile-links {
+      margin-left: 20px;
+      display: flex;
+      flex-grow: 10;
+      justify-content: space-around;
+    }
+    .schools-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .school-item {
+      border: 5px solid blue;
+      padding: 20px;
+      text-align: center;
+    }
+    .submit-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+ }
+
+        /* Footer Styles */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+	
+	</style>
